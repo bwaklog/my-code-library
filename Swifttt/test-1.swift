@@ -30,3 +30,9 @@ print(someString.count)
 
 var message: String = "Swift"
 print("This is \(message) language!")
+
+var multiline: String = """
+Swift is cool!
+:))
+"""
+print(multiline)
