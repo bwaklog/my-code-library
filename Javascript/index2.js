@@ -15,3 +15,19 @@ let employee = {
     }
 };
 console.log(employee.getWage());
+
+let Person = {
+    name: 'Aditya',
+    status: 2,
+
+    getStatus: function () {
+        if (status = 0) {
+            return 'Asleep';
+        }
+        else {
+            return 'Awake'
+        };
+    }
+
+}
+console.log(Person.getStatus())
