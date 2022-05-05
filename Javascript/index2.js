@@ -22,7 +22,7 @@ let Person = {
 
     getStatus: function () {
         if (status = 0) {
-            return 'Asleep';
+            return 'Asleep'; 
         }
         else {
             return 'Awake'
@@ -30,4 +30,14 @@ let Person = {
     }
 
 }
+
+let Car = {
+    carModel: "AE86", 
+    carPrice: 30000,
+    carMileage: 1200,
+}
+
+//  this is a test message 
+
+console.log(Car.carMileage)
 console.log(Person.getStatus())

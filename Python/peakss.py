@@ -1,11 +1,15 @@
 # %%
 def get_peaks(data):
+    dat = {"pos": [], "peak": []}
     for i in range(1, len(data)-1):
-        peaks_x = []
         if (data[i] > data[i-1]) and (data[i] > data[i+1]):
-            peaks_x.append(i)
-    return peaks_x
+            dat["pos"].append(i)
+            dat["peak"].append(data[i])
+    return dat
 
 
-# %%
-peaks_x = get_peaks(x)
+peak = get_peaks([1, 2, 3, 4, 3, 4, 3, 6, 3, 2, 6, 7, 2])
+print(peak)
+
+#%%
+print("Well Hello There")
