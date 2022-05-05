@@ -41,3 +41,4 @@ let Car = {
 
 console.log(Car.carMileage)
 console.log(Person.getStatus())
+
